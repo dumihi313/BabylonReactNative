@@ -332,7 +332,8 @@ PODS:
   - React-logger (0.71.7):
     - glog
   - react-native-babylon (0.0.1):
-    - React
+    - RCT-Folly (= 2021.07.22.00)
+    - React-Core
   - react-native-slider (4.4.2):
     - React-Core
   - React-perflogger (0.71.7)
@@ -622,7 +623,7 @@ SPEC CHECKSUMS:
   React-jsiexecutor: eaa5f71eb8f6861cf0e57f1a0f52aeb020d9e18e
   React-jsinspector: 9885f6f94d231b95a739ef7bb50536fb87ce7539
   React-logger: 3f8ebad1be1bf3299d1ab6d7f971802d7395c7ef
-  react-native-babylon: 6a970ba1a19b29e3585e2651484abd769d002ee9
+  react-native-babylon: 7ef60ced7075e76c7d4cde90196c5577abb3dfc1
   react-native-slider: 33b8d190b59d4f67a541061bb91775d53d617d9d
   React-perflogger: 2d505bbe298e3b7bacdd9e542b15535be07220f6
   React-RCTActionSheet: 0e96e4560bd733c9b37efbf68f5b1a47615892fb
@@ -644,4 +645,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: fc26d92d3f22d58def07834c1ace39a9adf7e083
 
-COCOAPODS: 1.12.0
+COCOAPODS: 1.14.3
